@@ -54,4 +54,4 @@ github.com/charliebk417/lancaster-furnished-housing (public, owner = yahoo-linke
 GitHub Pages from `main` (HTTPS enforced). Local pushes go through `gh` (run `gh auth setup-git`
 once per machine).
 
-Still open: real Formspree form ID, real Instagram handle, owner review of the PRD checklist.
+Still open: real Instagram handle, owner review of the PRD checklist. (Formspree `myezeeeq` wired 2026-09-20.)

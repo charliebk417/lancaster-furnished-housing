@@ -79,7 +79,7 @@ creates the free Formspree form; stub + comment until then). Guardrails: no fina
 
 ## 8. Open questions (owner)
 
-1. Formspree form ID (create at formspree.io, paste the `f/<id>` here).
+1. ~~Formspree form ID~~ → `myezeeeq` (done). Confirm the recipient email in Formspree Settings is LancasterFurnishedHousing@gmail.com.
 2. Instagram handle for the footer.
 3. GitHub repo name: `lancaster-furnished-housing` (confirm).
 4. Custom domain later? (GitHub Pages subdomain for now.)

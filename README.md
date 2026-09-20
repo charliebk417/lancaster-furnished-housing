@@ -27,6 +27,6 @@ that site (copy, photos, and measured brand tokens).
 
 ## TODOs
 
-- [ ] Formspree form ID (all 5 forms: `action="https://formspree.io/f/YOUR_FORM_ID"`)
+- [x] Formspree form ID (`myezeeeq`) — wired into all 5 forms
 - [ ] Real Instagram link in the footer (currently an HTML comment)
 - [ ] sitemap.xml `BASE` URL after deploy
