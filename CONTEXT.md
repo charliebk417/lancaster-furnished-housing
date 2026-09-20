@@ -49,5 +49,9 @@ pages), `tokens.css` + `styles.css` (Squarespace-measured navy/cream/espresso + 
 3D embeds on 606-U2/407-U2/409-U2, Formspree form stubs, photos copied from the capture zip.
 Own git repo (initial commit done, author `charliebk417@yahoo.com`).
 
-Pending: GitHub remote + Pages deploy (auth switch to the yahoo-linked account), real Formspree
-form ID, real Instagram handle, owner review of the PRD checklist.
+Live (2026-09-20): https://charliebk417.github.io/lancaster-furnished-housing/ — repo
+github.com/charliebk417/lancaster-furnished-housing (public, owner = yahoo-linked account),
+GitHub Pages from `main` (HTTPS enforced). Local pushes go through `gh` (run `gh auth setup-git`
+once per machine).
+
+Still open: real Formspree form ID, real Instagram handle, owner review of the PRD checklist.
