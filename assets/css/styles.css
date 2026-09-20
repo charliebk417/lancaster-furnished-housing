@@ -12,7 +12,9 @@ body {
   background: var(--paper);
 }
 img { max-width: 100%; height: auto; display: block; }
-h1, h2, h3 { line-height: var(--leading-tight); font-weight: var(--weight-bold); color: var(--accent); }
+p { text-wrap: pretty; widows: 2; orphans: 2; }
+h1, h2, h3 { line-height: var(--leading-tight); font-weight: var(--weight-bold); color: var(--accent); text-wrap: balance; }
+body { overflow-wrap: break-word; }
 h1 { font-size: var(--text-h1); }
 h2 { font-size: var(--text-h2); }
 p.lead { font-size: var(--text-lead); font-weight: var(--weight-light); }
