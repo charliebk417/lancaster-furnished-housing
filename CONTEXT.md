@@ -42,8 +42,12 @@ Large site content mirrors this folder's path in the Dropbox mirror (per
 - GitHub CLI on this Mac is currently authed as `circuscoder` — decide account handling before
   pushing this site's repo (see CHANGELOG/open items).
 
-## Open items (from site-capture findings)
+## Build state (2026-09-20)
 
-1. Properties page cards don't link to the 4 unit detail pages — fix in rebuild.
-2. Instagram footer icon is the Squarespace placeholder.
-3. 608-U1 / 608-U2 pages were "Coming Soon!" — decide content.
+v2 static site built in this folder: 9 pages (Home, Properties, West End, About, Contact, 4 unit
+pages), `tokens.css` + `styles.css` (Squarespace-measured navy/cream/espresso + Poppins), Matterport
+3D embeds on 606-U2/407-U2/409-U2, Formspree form stubs, photos copied from the capture zip.
+Own git repo (initial commit done, author `charliebk417@yahoo.com`).
+
+Pending: GitHub remote + Pages deploy (auth switch to the yahoo-linked account), real Formspree
+form ID, real Instagram handle, owner review of the PRD checklist.

@@ -68,12 +68,12 @@ creates the free Formspree form; stub + comment until then). Guardrails: no fina
 
 ## 7. Delivery checklist
 
-- [ ] tokens.css + styles.css written from §3 values
-- [ ] 9 HTML pages built per §2 with capture copy
-- [ ] 4 unit pages: photos from zip + Matterport iframes per §2
-- [ ] Properties cards link to detail pages (live-site bug fixed)
-- [ ] Inquiry form stubbed (Formspree FORM_ID comment) on unit + contact pages
-- [ ] Header/footer with the two logo files; real Instagram TODO
+- [x] tokens.css + styles.css written from §3 values
+- [x] 9 HTML pages built per §2 with capture copy
+- [x] 4 unit pages: photos from zip + Matterport iframes per §2
+- [x] Properties cards link to detail pages (live-site bug fixed)
+- [x] Inquiry form stubbed (Formspree FORM_ID comment) on unit + contact pages
+- [x] Header/footer with the two logo files; real Instagram TODO
 - [ ] GitHub repo (yahoo-linked account) + Pages enabled + pathing verified live
 - [ ] CHANGELOG + backup after deploy
 
