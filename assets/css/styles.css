@@ -31,6 +31,7 @@ a { color: var(--accent); }
 .site-header nav a {
   text-decoration: none; color: var(--ink); font-weight: var(--weight-medium);
   padding: .25rem 0; border-bottom: 2px solid transparent;
+  display: inline-flex; align-items: center; min-height: 44px; /* touch target */
 }
 .site-header nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
 
@@ -126,6 +127,26 @@ main > section { padding: var(--space-5) var(--space-4); }
 .prose { max-width: var(--maxw); margin: 0 auto; }
 .prose ul { columns: 2; gap: var(--space-4); padding-left: 1.25rem; }
 .prose li { margin-bottom: .5rem; }
+
+
+/* Mobile (mom-site pattern: compact nav at 767px, tightened padding on phones) */
+@media (max-width: 767px) {
+  .site-header { padding: var(--space-2) var(--space-3); }
+  .site-header .brand img { height: 2.5rem; }
+  .site-header nav { gap: var(--space-2); font-size: 12px; width: 100%; }
+  .site-header { gap: var(--space-2); }
+}
+@media (max-width: 40rem) {
+  main > section { padding: var(--space-4) 1.25rem; }
+  .hero { gap: var(--space-3); }
+  .btn { width: 100%; text-align: center; margin-bottom: .5rem; }
+}
+/* Touch devices: captions can't rely on hover — show them statically */
+@media (hover: none) {
+  .card figure::before { opacity: .55; }
+  .card figcaption { opacity: 1; transform: none; top: auto; bottom: 12px; }
+  .card figcaption strong { font-size: var(--text-body); }
+}
 
 /* Footer */
 .site-footer { background: var(--espresso); color: var(--espresso-ink); text-align: center; padding: var(--space-5) var(--space-4); }
