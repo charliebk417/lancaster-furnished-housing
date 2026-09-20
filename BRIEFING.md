@@ -28,8 +28,8 @@ written down for the builder). Everything below is measured or copied, not inven
 ## Site map v1 (agreed scope)
 
 1. `index.html` — Home (hero, 3 value props, CTA → properties).
-2. `properties.html` — 6 unit cards (606-U1, 606-U2, 407-U2, 409-U2, 608-U1 "Coming Soon!",
-   608-U2 "Coming Soon!"). Cards MUST link to their detail pages (fixes the live-site bug).
+2. `properties.html` — 4 unit cards (606-U1, 606-U2, 407-U2, 409-U2), linked to their detail
+   pages (fixes the live-site bug). 608 units removed from v1 (owner decision 2026-09-20).
 3. `the-west-end.html` — neighborhood guide (cafes/restaurants/markets/parks/arts/universities —
    copy in `site-capture/md/the-west-end.md`).
 4. `about-us.html` — copy in `site-capture/md/about-us.md`.

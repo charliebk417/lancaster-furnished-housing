@@ -16,7 +16,7 @@ professionals, families in transition, relocation partners.
 | Page | File | Content source |
 | --- | --- | --- |
 | Home | `index.html` | hero + 3 value props ("Well equipped. / Managed with Care. / Feels like home."), CTA → properties |
-| Properties | `properties.html` | 6 unit cards, linked to detail pages |
+| Properties | `properties.html` | 4 unit cards, linked to detail pages (608 units removed from v1 per owner) |
 | The West End | `the-west-end.html` | neighborhood guide (capture copy) |
 | About Us | `about-us.html` | capture copy |
 | Contact Us | `contact-us.html` | phone/email + inquiry form |
