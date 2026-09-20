@@ -1,0 +1,65 @@
+/* Lancaster Furnished Housing — design tokens.
+   Values measured from the live Squarespace site's generated stylesheet (2026-09-20):
+   accent hsl(212.46,64.21%,18.63%) -> #112D4E, lightAccent hsl(35,40%,94.12%) -> #F5F1EA,
+   darkAccent hsl(32.9,40.26%,15.1%) -> #362517. Font: Poppins (300/400/500/700). */
+
+:root {
+  /* Color */
+  --accent: #112D4E;
+  --accent-ink: #F5F1EA;
+  --cream: #F5F1EA;
+  --paper: #FFFFFF;
+  --ink: #1A1A1A;
+  --espresso: #362517;
+  --espresso-ink: #F5F1EA;
+  --rule: #D8CFC2;
+  --muted: #6B6357;
+
+  /* Type */
+  --font-body: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --text-hero: clamp(2.25rem, 5.5vw, 3.75rem);
+  --text-h1: clamp(1.75rem, 3.5vw, 2.5rem);
+  --text-h2: clamp(1.5rem, 3vw, 2rem);
+  --text-lead: 1.25rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --leading-tight: 1.2;
+  --leading-body: 1.65;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  /* Spacing */
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+
+  /* Shape & layout */
+  --radius: 8px;
+  --maxw: 72rem;
+  --shadow: 0 2px 12px rgba(17, 45, 78, .08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #121820;
+    --cream: #1B2430;
+    --ink: #ECE9E4;
+    --muted: #A9A396;
+    --rule: #2E3A4A;
+    --accent: #2E5E96;
+    --accent-ink: #FFFFFF;
+    --espresso: #241B12;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

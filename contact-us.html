@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Lancaster Furnished Housing — inquiries about furnished 30+ day stays in Lancaster's West End. Phone (310) 749-0680.">
+<title>Contact Us — Lancaster Furnished Housing</title>
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img src="assets/img/logo-color.png" alt="Lancaster Furnished Housing"></a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="properties.html">Properties</a>
+    <a href="the-west-end.html">The West End</a>
+    <a href="about-us.html">About Us</a>
+    <a href="contact-us.html">Contact Us</a>
+  </nav>
+</header>
+<main>
+  <section class="band-cream">
+    <div class="hero wrap">
+      <div>
+        <h1>Contact Lancaster Furnished Housing</h1>
+        <p class="lead">We're here to help. Whether you're relocating, planning a temporary move, or assisting someone in transition, we'd love to hear from you.</p>
+        <p><strong>Phone:</strong> <a href="tel:+13107490680">(310) 749-0680</a><br>
+        <strong>Email:</strong> <a href="mailto:LancasterFurnishedHousing@gmail.com">LancasterFurnishedHousing@gmail.com</a></p>
+        <p class="fine">Available Monday–Friday, 9am–5pm EST. We do our best to respond outside of business hours as well.</p>
+      </div>
+      <img src="assets/img/contact-hero.jpg" alt="A furnished living space in one of our Lancaster apartments">
+    </div>
+  </section>
+  <section>
+<form class="inquiry" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <!-- TODO: replace YOUR_FORM_ID after creating the free Formspree form (formspree.io) -->
+  <h2>Request a Quote</h2>
+  <p class="fine">Mid-term stays of 30 days or more. We respond within one business day. Your information is never shared — we only use it to respond to your inquiry.</p>
+  <label>Name <input type="text" name="name" required></label>
+  <label>Email <input type="email" name="email" required></label>
+  <label>Phone <input type="tel" name="phone"></label>
+  <label>Property / Unit
+    <select name="unit" required>
+      <option value="606-w-lemon-unit-1">606 West Lemon St, Unit 1</option>
+      <option value="606-w-lemon-unit-2">606 West Lemon St, Unit 2</option>
+      <option value="407-college-ave-unit-2">407 College Ave, Unit 2</option>
+      <option value="409-college-ave-unit-2">409 College Ave, Unit 2</option>
+      <option value="not-sure">Not sure yet</option>
+    </select>
+  </label>
+  <label>Move-in date <input type="date" name="move_in" required></label>
+  <label>Length of stay
+    <select name="stay" required>
+      <option>1–3 months</option><option>3–6 months</option>
+      <option>6+ months</option><option>Not sure</option>
+    </select>
+  </label>
+  <label>Guests (incl. pets) <input type="text" name="guests"></label>
+  <label>Message <textarea name="message" rows="4"></textarea></label>
+  <label class="consent"><input type="checkbox" name="consent" required> I agree that my contact information will be used only to respond to this inquiry.</label>
+  <button type="submit" class="btn">Send Inquiry</button>
+</form>
+  </section>
+</main>
+<footer class="site-footer">
+  <img src="assets/img/logo-nobg.png" alt="" aria-hidden="true">
+  <p><a href="tel:+13107490680">(310) 749-0680</a> · <a href="mailto:LancasterFurnishedHousing@gmail.com">LancasterFurnishedHousing@gmail.com</a></p>
+  <p class="fine">30+ day furnished stays in Lancaster's West End.</p>
+  <!-- TODO: real Instagram handle -->
+</footer>
+</body>
+</html>
