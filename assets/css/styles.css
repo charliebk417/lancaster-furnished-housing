@@ -150,6 +150,12 @@ main > section { padding: var(--space-5) var(--space-4); }
   .card figcaption strong { font-size: var(--text-body); }
 }
 
+.site-footer .fcontact { white-space: nowrap; }
+@media (max-width: 767px) {
+  .site-footer .fsep { display: none; }
+  .site-footer p { display: flex; flex-direction: column; gap: .35rem; align-items: center; }
+}
+
 /* Footer */
 .site-footer { background: var(--espresso); color: var(--espresso-ink); text-align: center; padding: var(--space-5) var(--space-4); }
 .site-footer img { height: 2.5rem; width: auto; margin: 0 auto var(--space-2); }
